@@ -1,0 +1,375 @@
+.titleSection {
+   font-size: 25px;
+   font-family: Roboto;
+   font-weight: 400;
+}
+
+.titleNav {
+   color: #fff;
+   font-weight: 400;
+}
+
+.colorNavLight {
+   background-color: orange;
+}
+
+.bodyLight {
+   background: orange !important;
+}
+
+.bodyStyle {
+   padding: 25px 20px 15px 20px;
+   background-color: #e1f5fe;
+   width: 100%;
+   position: relative;
+   height: 500px;
+   max-height: 500px;
+   overflow: auto;
+}
+
+.bodyStyleBlack {
+   padding: 25px 20px 15px 20px;
+   background-color: orange;
+   width: 100%;
+}
+
+.botonCodeDesign {
+   background-color: #1c3444;
+}
+
+.titleNavMain{
+   width: 100%;
+   text-align: center;
+   font-size: 30px !important;
+   font-family: 'Contrail One';
+}
+
+/*Sidenav*/
+
+.lineDownNav {
+   background-color: #f2c439;
+   height: 6px;
+   z-index: 200;
+   position: relative;
+}
+
+.titleUnderNav {
+   background-color: #f2c439;
+   height: 60px;
+   position: relative;
+   z-index: -1 !important;
+   padding-left: 20px;
+
+   display: flex;
+   align-items: center;
+}
+
+.titleUnderNav>div {
+   font-size: 20px;
+   font-weight: 700;
+   color: #5e4600;
+}
+
+.titleUnderNav>div:last-child {
+   margin-left: 10px;
+   height: 60px;
+   padding-bottom: 7px;
+   display: flex;
+   align-items: center;
+}
+
+
+/*Parte inferior*/
+
+.boxInferiorDesign {
+   padding: 10px 10px 13px 10px;
+   background-color: orange;
+   height: 140px;
+}
+
+.codigoGenerado {
+   font-family: consolas;
+   color: #ffff00;
+   font-weight: 600;
+   height: 130px;
+   overflow: auto;
+}
+
+.buttonActionCode{
+   border-radius: 5px;
+   margin: 3px;
+   background-color:#e4e5e6;
+   color: #2b2b2b;
+
+   padding: 10px;
+
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+.botonesCodigo{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: row;
+}
+
+.primeroAction{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+/*Tabs*/
+
+.tabs .tab a {
+   color: orange !important;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+   background-color: transparent !important;
+   color: orange !important;
+}
+
+.tabs .tab.disabled a,
+.tabs .tab.disabled a:hover {
+   color: rgba(102, 147, 153, 0.7) !important;
+}
+
+.tabs .indicator {
+   background-color: orange !important;
+   height: 3px !important;
+}
+
+/*Box down*/
+.wrapper {
+   position: relative;
+}
+
+.bottom {
+   position: absolute;
+   bottom: 0;
+}
+
+
+/*Box ayuda*/
+
+.alignCardHelp {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   height: 60px;
+
+   margin: 0 0 40px 0 !important;
+}
+
+.iconCardHelp,
+.textCardHelps {
+   height: 65px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.iconCardHelp {
+   width: 20%;
+   border-radius: 10px 0 0 10px;
+   background-color: #1c3444;
+   color: #fff;
+}
+
+.textCardHelps {
+   width: 80%;
+   border-radius: 0px 10px 10px 0;
+   padding-left: 20px;
+   padding-bottom: 5px;
+   font-size: 20px;
+   font-weight: 500;
+   background-color: #fff;
+   color: #1c3444;
+   justify-content: left;
+}
+
+.modal .modal-content {
+   padding: 30px !important;
+   height: 700px;
+   border-radius: 30px 30px 0 0px !important;
+   background-color: #fff;
+}
+
+.modal .modal-content::before {
+   background-color: rgb(204, 204, 204) !important;
+   border-radius: 500px;
+   height: 7px !important;
+   width: 30%;
+   display: inline-block;
+   position: absolute;
+   top: 10px;
+   left: 36%;
+   color: #fff;
+   content: '_';
+}
+
+.modal {
+   background-color: transparent !important;
+}
+
+/*Form general*/
+
+.containerForm{
+   width: 100%;
+   padding: 35px 20px 40px 20px;
+}
+
+.titleForm{
+   height: 50px;
+   width: 100%;
+   background-color: #f3dc91;
+   color: #5e4600;
+   font-size: 20px;
+   font-weight: 500;
+
+   border-radius: 20px 20px 0 0;
+
+   padding: 10px 0 0 0;
+
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+
+.containerInputsForm{
+   padding: 35px 40px 35px 40px;
+   background-color: #fbf3d3;
+}
+
+ /* label color */
+ .input-field label {
+   color: #5e4600 !important;
+ }
+ /* label focus color */
+ .input-field input:focus + label {
+   color: #5e4600 !important;
+ }
+ /* label underline focus color */
+ .input-field input:focus {
+   border-bottom: 1px solid #5e4600 !important;
+   box-shadow: 0 1px 0 0 #5e4600 !important;
+ }
+ /* valid color */
+ .input-field input.valid {
+   border-bottom: 1px solid #5e4600 !important;
+   box-shadow: 0 1px 0 0 #5e4600 !important;
+ }
+ /* invalid color */
+ .input-field input.invalid {
+   border-bottom: 1px solid red !important;
+   box-shadow: 0 1px 0 0 red !important;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #5e4600;
+ }
+
+.submitInfo{
+   width: 100%;
+   height: 50px;
+   padding: 10px 20px 5px 20px;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   background-color: #eabe3a;
+}
+
+.submitInfo:first-child{
+   font-size: 20px;
+   color: #5e4600;
+}
+
+.submitInfo:nth-child(1n){
+   font-size: 18px;
+   font-weight: 500;
+   color: #5e4600;
+   border-radius: 0 0 20px 20px;
+   height: 100%;
+   padding-bottom: 5px;
+}
+
+.footerButton{
+   width: 100%;
+   height: 50px;
+   border-radius: 500px;
+   margin-top: 20px;
+   font-family: 'Roboto';
+   font-size: 20px;
+   font-weight: 600;
+   background-color: #eabe3a;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+.footerButton>div{
+   height: 100%;
+   padding: 10px;
+   color: #5e4600 !important;
+}
+
+/*Estilos de la comunidad*/
+
+.btnFloatingComunidad{
+   background-color: #eabe3a;
+}
+
+.btnFloatingComunidad:hover{
+   background-color: #eabe3a;
+}
+
+.btnFloatingComunidad > i{
+   color: #5e4600;
+}
+
+.holeCardDescarga{
+   border-radius: 15px;
+   margin-bottom: 20px;
+}
+
+.tituloCardDescarga{
+   background-color: #fff;
+   display: flex;
+   align-content: center;
+   justify-content: left;
+   flex-direction: column;
+   border-radius: 15px 15px 0 0;
+   padding: 5px 20px 3px 20px;
+}
+
+.tituloCardDescarga:first-child{
+   font-size: 20px;
+   font-weight: 600;
+   font-family: Roboto;
+   color: #26495f;
+}
+
+.buttonDownloadCard{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+
+   padding: 10px 20px;
+   font-size: 15px;
+   border-radius: 0 0 15px 15px;
+   font-family: Roboto;
+   font-weight: 500;
+   color: #fff;
+   background-color: #182f3d;
+}
+
+.buttonDownloadCard > span{
+   position: relative;
+   top: 3px;
+}
+

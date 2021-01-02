@@ -1,0 +1,12 @@
+.iconsSize{
+    height: 2rem;
+}
+
+.iconsSizeFloat{
+    height: 2rem;
+    line-height: 70px !important;
+}
+
+.iconNav{
+    top: 10px;
+}
