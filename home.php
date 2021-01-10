@@ -1,11 +1,10 @@
 <?php
 include './componentesInterfaz/A_headerData.php';
-include 'L_session.php';
 ?>
 <nav class="colorNavLight nav-extended">
     <div class="nav-wrapper">
         <a href="#" data-target="mobile-demo" class="sidenav-trigger iconNav show-on-large"><img class="iconsSize iconColorLight" src="icons/menu-black-18dp.svg" alt="menu icon"></a>
-        <span class="titleNav flow-text">Panel de control.</span>
+        <span class="titleNav flow-text"><?php echo _HOMETITLE ?></span>
         <a class="btn-floating btn-large halfway-fab waves-effect waves-light botonCodeDesign">
             <i class="material-icons">code</i>
         </a>

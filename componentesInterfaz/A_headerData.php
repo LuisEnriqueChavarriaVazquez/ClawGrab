@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,3 +12,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="bodyLight">
+
+<!--Nos da los datos del usuario en todo momento-->
+<?php
+    include 'L_session.php';
+?>
+
+<!--Nos indica el idioma por defecto-->
+<?php
+    include 'L_languageGiver.php';
+?>
+
