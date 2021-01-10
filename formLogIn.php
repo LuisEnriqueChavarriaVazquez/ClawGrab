@@ -1,5 +1,5 @@
 <?php
-include './componentesInterfaz/A_headerData.php';
+include './componentesInterfaz/A_headerDataNoSession.php';
 include './componentesInterfaz/navTitle.php';
 include './componentesInterfaz/logIn_Title.php';
 ?>

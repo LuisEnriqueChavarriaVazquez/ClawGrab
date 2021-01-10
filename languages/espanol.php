@@ -1,14 +1,14 @@
 <?php
 
 //Home
-define("_HOMETITLE", "Panel de control");
-define("_OPT1", "Comunidad");
-define("_OPT2", "Actualizar datos");
-define("_OPT3", "Ayuda");
-define("_OPT4", "Salir");
-define("_NAV1", "Variables");
-define("_NAV2", "Operadores");
-define("_NAV3", "Control");
+$_HOMETITLE= "Panel de control";
+$_OPT1= "Comunidad";
+$_OPT2= "Actualizar datos";
+$_OPT3= "Ayuda";
+$_OPT4= "Salir";
+$_NAV1= "Variables";
+$_NAV2= "Operadores";
+$_NAV3= "Control";
 
 
 ?>

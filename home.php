@@ -1,10 +1,11 @@
 <?php
 include './componentesInterfaz/A_headerData.php';
 ?>
+
 <nav class="colorNavLight nav-extended">
     <div class="nav-wrapper">
         <a href="#" data-target="mobile-demo" class="sidenav-trigger iconNav show-on-large"><img class="iconsSize iconColorLight" src="icons/menu-black-18dp.svg" alt="menu icon"></a>
-        <span class="titleNav flow-text"><?php echo _HOMETITLE ?></span>
+        <span class="titleNav flow-text"><?php echo $_HOMETITLE ?></span>
         <a class="btn-floating btn-large halfway-fab waves-effect waves-light botonCodeDesign">
             <i class="material-icons">code</i>
         </a>
@@ -21,16 +22,16 @@ include './componentesInterfaz/A_headerData.php';
             <a href="#email"><span class="white-text email"><?php echo $login_session; ?></span></a>
         </div>
     </li>
-    <li><a href="comunidadHome.php" class="waves-effect"><i class="material-icons">groups</i>Community</a></li>
-    <li><a href="formEditData.php" class="waves-effect"><i class="material-icons">edit</i>Update data</a></li>
+    <li><a href="comunidadHome.php" class="waves-effect"><i class="material-icons">groups</i><?php echo $_OPT1 ?></a></li>
+    <li><a href="formEditData.php" class="waves-effect"><i class="material-icons">edit</i><?php echo $_OPT2 ?></a></li>
     <li><a href="#!" class="waves-effect" id="pythonista"><i class="material-icons blue-grey-text">palette</i>Pythonista</a></li>
     <li><a href="#!" class="waves-effect" id="hacker"><i class="material-icons green-text">palette</i>Hacker</a></li>
     <li><a href="#!" class="waves-effect" id="dark"><i class="material-icons black-text">palette</i>Dark</a></li>
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="menuAyuda.php" class="waves-effect"><i class="material-icons">help</i>Help</a></li>
-    <li><a href="L_logOut.php" class="waves-effect"><i class="material-icons">directions_run</i>Log out</a></li>
+    <li><a href="menuAyuda.php" class="waves-effect"><i class="material-icons">help</i><?php echo $_OPT3 ?></a></li>
+    <li><a href="L_logOut.php" class="waves-effect"><i class="material-icons">directions_run</i><?php echo $_OPT4 ?></a></li>
 </ul>
 
 <section class="bodyStyle">
@@ -65,9 +66,9 @@ include './componentesInterfaz/A_headerData.php';
         <div class="card" style="margin: 0px !important;">
             <div class="card-tabs">
                 <ul class="tabs tabs-fixed-width">
-                    <li class="tab"><a class="active" href="#test4">Variables</a></li>
-                    <li class="tab"><a href="#test5">Operadores</a></li>
-                    <li class="tab"><a href="#test6">Control</a></li>
+                    <li class="tab"><a class="active" href="#test4"><?php echo $_NAV1 ?></a></li>
+                    <li class="tab"><a href="#test5"><?php echo $_NAV2 ?></a></li>
+                    <li class="tab"><a href="#test6"><?php echo $_NAV3 ?></a></li>
                 </ul>
             </div>
             <div class="card-content grey lighten-4">
