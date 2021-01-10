@@ -45,12 +45,11 @@ include './componentesInterfaz/comunidad_browser.php';
                 <div class="chip truncate">Clave</div>
             </div>
         </div>
-        <a href="formSubirProyecto.php">
+       
             <div class="buttonDownloadCard waves-effect waves-light">
                 <i class="material-icons">cloud_download</i> &nbsp;&nbsp;
                 <span>Descargar</span>
             </div>
-        </a>
     </div>
 
     <?php

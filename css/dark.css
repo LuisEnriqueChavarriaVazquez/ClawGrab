@@ -10,16 +10,17 @@
 }
 
 .colorNavLight {
-   background-color: #21445c;
+   background-color: #2c2c2c;
 }
 
 .bodyLight {
-   background: #21445c !important;
+   background: #2c2c2c !important;
 }
 
 .bodyStyle {
    padding: 25px 20px 15px 20px;
-   background-color: #e1f5fe;
+   background-color: #000;
+   color: #fff;
    width: 100%;
    position: relative;
    height: 500px;
@@ -29,12 +30,12 @@
 
 .bodyStyleBlack {
    padding: 25px 20px 15px 20px;
-   background-color: #21445c;
+   background-color: #2c2c2c;
    width: 100%;
 }
 
 .botonCodeDesign {
-   background-color: #1c3444;
+   background-color: #5a5a5a;
 }
 
 .titleNavMain{
@@ -47,14 +48,14 @@
 /*Sidenav*/
 
 .lineDownNav {
-   background-color: #f2c439;
+   background-color: #3c3c3c;
    height: 6px;
    z-index: 200;
    position: relative;
 }
 
 .titleUnderNav {
-   background-color: #f2c439;
+   background-color: #3c3c3c;
    height: 60px;
    position: relative;
    z-index: -1 !important;
@@ -67,7 +68,7 @@
 .titleUnderNav>div {
    font-size: 20px;
    font-weight: 700;
-   color: #5e4600;
+   color: #fff;
 }
 
 .titleUnderNav>div:last-child {
@@ -83,13 +84,13 @@
 
 .boxInferiorDesign {
    padding: 10px 10px 13px 10px;
-   background-color: #21445c;
+   background-color: #000;
    height: 140px;
 }
 
 .codigoGenerado {
    font-family: consolas;
-   color: #ffff00;
+   color: #fffb00;
    font-weight: 600;
    height: 130px;
    overflow: auto;
@@ -124,13 +125,13 @@
 /*Tabs*/
 
 .tabs .tab a {
-   color: #21445c !important;
+   color: #2c2c2c !important;
 }
 
 .tabs .tab a:hover,
 .tabs .tab a.active {
    background-color: transparent !important;
-   color: #21445c !important;
+   color: #2c2c2c !important;
 }
 
 .tabs .tab.disabled a,
@@ -139,7 +140,7 @@
 }
 
 .tabs .indicator {
-   background-color: #21445c !important;
+   background-color: #2c2c2c !important;
    height: 3px !important;
 }
 
@@ -177,7 +178,7 @@
 .iconCardHelp {
    width: 20%;
    border-radius: 10px 0 0 10px;
-   background-color: #1c3444;
+   background-color: #5a5a5a;
    color: #fff;
 }
 
@@ -188,8 +189,8 @@
    padding-bottom: 5px;
    font-size: 20px;
    font-weight: 500;
-   background-color: #fff;
-   color: #1c3444;
+   background-color: rgb(65, 65, 65);
+   color: #fff;
    justify-content: left;
 }
 
@@ -227,8 +228,8 @@
 .titleForm{
    height: 50px;
    width: 100%;
-   background-color: #f3dc91;
-   color: #5e4600;
+   background-color: #3c3c3c;
+   color: #fff;
    font-size: 20px;
    font-weight: 500;
 
@@ -243,26 +244,26 @@
 
 .containerInputsForm{
    padding: 35px 40px 35px 40px;
-   background-color: #fbf3d3;
+   background-color:#5a5a5a;
 }
 
  /* label color */
  .input-field label {
-   color: #5e4600 !important;
+   color: #fff !important;
  }
  /* label focus color */
  .input-field input:focus + label {
-   color: #5e4600 !important;
+   color: #fff !important;
  }
  /* label underline focus color */
  .input-field input:focus {
-   border-bottom: 1px solid #5e4600 !important;
-   box-shadow: 0 1px 0 0 #5e4600 !important;
+   border-bottom: 1px solid #fff !important;
+   box-shadow: 0 1px 0 0 #fff !important;
  }
  /* valid color */
  .input-field input.valid {
-   border-bottom: 1px solid #5e4600 !important;
-   box-shadow: 0 1px 0 0 #5e4600 !important;
+   border-bottom: 1px solid #fff !important;
+   box-shadow: 0 1px 0 0 #fff !important;
  }
  /* invalid color */
  .input-field input.invalid {
@@ -271,7 +272,7 @@
  }
  /* icon prefix focus color */
  .input-field .prefix.active {
-   color: #5e4600;
+   color: #fff;
  }
 
 .submitInfo{
@@ -281,18 +282,22 @@
    display: flex;
    align-content: center;
    justify-content: center;
-   background-color: #eabe3a;
+   background-color: rgb(46, 46, 46);
+}
+
+.sendButtonMine > b{
+   color:#fff;
 }
 
 .submitInfo:first-child{
    font-size: 20px;
-   color: #5e4600;
+   color: #fff;
 }
 
 .submitInfo:nth-child(1n){
    font-size: 18px;
    font-weight: 500;
-   color: #5e4600;
+   color: #fff;
    border-radius: 0 0 20px 20px;
    height: 100%;
    padding-bottom: 5px;
@@ -306,7 +311,7 @@
    font-family: 'Roboto';
    font-size: 20px;
    font-weight: 600;
-   background-color: #eabe3a;
+   background-color: #3c3c3c;
    display: flex;
    justify-content: center;
    align-content: center;
@@ -315,21 +320,21 @@
 .footerButton>div{
    height: 100%;
    padding: 10px;
-   color: #5e4600 !important;
+   color: #fff !important;
 }
 
 /*Estilos de la comunidad*/
 
 .btnFloatingComunidad{
-   background-color: #eabe3a;
+   background-color: #3c3c3c;
 }
 
 .btnFloatingComunidad:hover{
-   background-color: #eabe3a;
+   background-color: #3c3c3c;
 }
 
 .btnFloatingComunidad > i{
-   color: #5e4600;
+   color: #fff;
 }
 
 .holeCardDescarga{

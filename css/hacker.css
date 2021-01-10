@@ -10,16 +10,17 @@
 }
 
 .colorNavLight {
-   background-color: orange;
+   background-color: #005630;
 }
 
 .bodyLight {
-   background: orange !important;
+   background: #005630 !important;
 }
 
 .bodyStyle {
    padding: 25px 20px 15px 20px;
-   background-color: #e1f5fe;
+   background-color: #2d2d2d;
+   color: #fff;
    width: 100%;
    position: relative;
    height: 500px;
@@ -29,12 +30,12 @@
 
 .bodyStyleBlack {
    padding: 25px 20px 15px 20px;
-   background-color: orange;
+   background-color: #005630;
    width: 100%;
 }
 
 .botonCodeDesign {
-   background-color: #1c3444;
+   background-color: #00bf6c;
 }
 
 .titleNavMain{
@@ -47,14 +48,14 @@
 /*Sidenav*/
 
 .lineDownNav {
-   background-color: #f2c439;
+   background-color: #04b869;
    height: 6px;
    z-index: 200;
    position: relative;
 }
 
 .titleUnderNav {
-   background-color: #f2c439;
+   background-color: #04b869;
    height: 60px;
    position: relative;
    z-index: -1 !important;
@@ -67,7 +68,7 @@
 .titleUnderNav>div {
    font-size: 20px;
    font-weight: 700;
-   color: #5e4600;
+   color: #045232;
 }
 
 .titleUnderNav>div:last-child {
@@ -83,13 +84,13 @@
 
 .boxInferiorDesign {
    padding: 10px 10px 13px 10px;
-   background-color: orange;
+   background-color: #000;
    height: 140px;
 }
 
 .codigoGenerado {
    font-family: consolas;
-   color: #ffff00;
+   color: #04b869;
    font-weight: 600;
    height: 130px;
    overflow: auto;
@@ -124,13 +125,13 @@
 /*Tabs*/
 
 .tabs .tab a {
-   color: orange !important;
+   color: #005630 !important;
 }
 
 .tabs .tab a:hover,
 .tabs .tab a.active {
    background-color: transparent !important;
-   color: orange !important;
+   color: #005630 !important;
 }
 
 .tabs .tab.disabled a,
@@ -139,7 +140,7 @@
 }
 
 .tabs .indicator {
-   background-color: orange !important;
+   background-color: #005630 !important;
    height: 3px !important;
 }
 
@@ -177,7 +178,7 @@
 .iconCardHelp {
    width: 20%;
    border-radius: 10px 0 0 10px;
-   background-color: #1c3444;
+   background-color: #00bf6c;
    color: #fff;
 }
 
@@ -189,7 +190,7 @@
    font-size: 20px;
    font-weight: 500;
    background-color: #fff;
-   color: #1c3444;
+   color: #045232;
    justify-content: left;
 }
 
@@ -227,8 +228,8 @@
 .titleForm{
    height: 50px;
    width: 100%;
-   background-color: #f3dc91;
-   color: #5e4600;
+   background-color: #04b869;
+   color: #045232;
    font-size: 20px;
    font-weight: 500;
 
@@ -243,26 +244,26 @@
 
 .containerInputsForm{
    padding: 35px 40px 35px 40px;
-   background-color: #fbf3d3;
+   background-color:#bbdaca;
 }
 
  /* label color */
  .input-field label {
-   color: #5e4600 !important;
+   color: #045232 !important;
  }
  /* label focus color */
  .input-field input:focus + label {
-   color: #5e4600 !important;
+   color: #045232 !important;
  }
  /* label underline focus color */
  .input-field input:focus {
-   border-bottom: 1px solid #5e4600 !important;
-   box-shadow: 0 1px 0 0 #5e4600 !important;
+   border-bottom: 1px solid #045232 !important;
+   box-shadow: 0 1px 0 0 #045232 !important;
  }
  /* valid color */
  .input-field input.valid {
-   border-bottom: 1px solid #5e4600 !important;
-   box-shadow: 0 1px 0 0 #5e4600 !important;
+   border-bottom: 1px solid #045232 !important;
+   box-shadow: 0 1px 0 0 #045232 !important;
  }
  /* invalid color */
  .input-field input.invalid {
@@ -271,7 +272,7 @@
  }
  /* icon prefix focus color */
  .input-field .prefix.active {
-   color: #5e4600;
+   color: #045232;
  }
 
 .submitInfo{
@@ -281,18 +282,22 @@
    display: flex;
    align-content: center;
    justify-content: center;
-   background-color: #eabe3a;
+   background-color: #045232;
+}
+
+.sendButtonMine > b{
+   color:#04b869;
 }
 
 .submitInfo:first-child{
    font-size: 20px;
-   color: #5e4600;
+   color: #045232;
 }
 
 .submitInfo:nth-child(1n){
    font-size: 18px;
    font-weight: 500;
-   color: #5e4600;
+   color: #045232;
    border-radius: 0 0 20px 20px;
    height: 100%;
    padding-bottom: 5px;
@@ -306,7 +311,7 @@
    font-family: 'Roboto';
    font-size: 20px;
    font-weight: 600;
-   background-color: #eabe3a;
+   background-color: #04b869;
    display: flex;
    justify-content: center;
    align-content: center;
@@ -315,21 +320,21 @@
 .footerButton>div{
    height: 100%;
    padding: 10px;
-   color: #5e4600 !important;
+   color: #045232 !important;
 }
 
 /*Estilos de la comunidad*/
 
 .btnFloatingComunidad{
-   background-color: #eabe3a;
+   background-color: #04b869;
 }
 
 .btnFloatingComunidad:hover{
-   background-color: #eabe3a;
+   background-color: #04b869;
 }
 
 .btnFloatingComunidad > i{
-   color: #5e4600;
+   color: #045232;
 }
 
 .holeCardDescarga{
@@ -351,7 +356,7 @@
    font-size: 20px;
    font-weight: 600;
    font-family: Roboto;
-   color: #26495f;
+   color: #012e0e;
 }
 
 .buttonDownloadCard{
@@ -365,7 +370,7 @@
    font-family: Roboto;
    font-weight: 500;
    color: #fff;
-   background-color: #182f3d;
+   background-color: #002b10;
 }
 
 .buttonDownloadCard > span{

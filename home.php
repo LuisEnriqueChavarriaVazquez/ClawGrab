@@ -1,5 +1,7 @@
+
 <?php
 include './componentesInterfaz/A_headerData.php';
+include 'L_session.php';
 ?>
 <nav class="colorNavLight nav-extended">
     <div class="nav-wrapper">
@@ -17,8 +19,8 @@ include './componentesInterfaz/A_headerData.php';
             <div class="background">
                 <img src="img/fondo.jpg" width="300px">
             </div>
-            <a href="#name"><span class="white-text name">Sir Shrek</span></a>
-            <a href="#email"><span class="white-text email">soncomocebollas@gmail.com</span></a>
+            <a href="#name"><span class="white-text name"><?php echo $login_session_name;?></span></a>
+            <a href="#email"><span class="white-text email"><?php echo $login_session; ?></span></a>
         </div>
     </li>
     <li><a href="comunidadHome.php" class="waves-effect"><i class="material-icons">groups</i>Community</a></li>
@@ -30,7 +32,7 @@ include './componentesInterfaz/A_headerData.php';
         <div class="divider"></div>
     </li>
     <li><a href="menuAyuda.php" class="waves-effect"><i class="material-icons">help</i>Help</a></li>
-    <li><a href="#!" class="waves-effect"><i class="material-icons">directions_run</i>Log out</a></li>
+    <li><a href="L_logOut.php" class="waves-effect"><i class="material-icons">directions_run</i>Log out</a></li>
 </ul>
 
 <section class="bodyStyle">
