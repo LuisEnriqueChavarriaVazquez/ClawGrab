@@ -19,6 +19,11 @@ include './componentesInterfaz/signUp_Title.php';
                     <input id="icon_pais" type="text" class="validate">
                     <label for="icon_pais">País</label>
                 </div>
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">face</i>
+                    <input id="icon_edad" type="number" class="validate">
+                    <label for="icon_edad">Edad</label>
+                </div>
                 <br>
                 <div class="input-field col s12 m6">
                     <select class="icons">
@@ -51,7 +56,7 @@ include './componentesInterfaz/signUp_Title.php';
         </div>
         <a href="formLogin.php">
             <div class="waves-effect waves-light footerButton z-depth-3">
-                <div>¿Aún no tienes cuenta?</div>
+                <div>¿Ya tienes cuenta?</div>
             </div>
         </a>
     </div>
