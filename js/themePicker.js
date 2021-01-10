@@ -2,10 +2,19 @@ $(document).ready(function () {
 
     var temaGuardado;
     var tema = $("#theme");
+    var temaAutomatico;
+
+
+    //Definicion de color por defecto para el primer uso
+    if(localStorage.getItem("tema") === null){
+        localStorage.setItem("tema", "css/pythonista.css"); 
+        temaAutomatico = localStorage.getItem("tema");
+        tema.attr("href", temaAutomatico);
+    }
 
     //Craga automatica del tema anterior
     function automaticSetter(){
-        var temaAutomatico = localStorage.getItem("tema");
+        temaAutomatico = localStorage.getItem("tema");
         tema.attr("href", temaAutomatico);
     }
 

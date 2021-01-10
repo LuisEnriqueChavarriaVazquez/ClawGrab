@@ -1,4 +1,3 @@
-
 <?php
 include './componentesInterfaz/A_headerData.php';
 include 'L_session.php';
