@@ -4,6 +4,9 @@
   <div class="modal-content">
     <h5><?php echo $_TITLE1 ?></h5>
     <p>A bunch of text lorem</p>
+
+    <img class="materialboxed" width="100%" src="img/fondo.jpg">
+
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect red darken-4 white-text btn-flat"> <i class="material-icons">close</i></a>
