@@ -29,7 +29,7 @@
   }
 
   function set_edad($edadEntrada){
-    $this->edad = $edadEntrada;
+    $this->edad =(int) $edadEntrada;
   }
 
   function get_Pais() {
@@ -40,7 +40,7 @@
     $this->pais = $paisEntrada;
   }
   
-  function get_correo() {
+  function get_Correo() {
     return $this->correo;
   }
 
@@ -56,7 +56,7 @@
     $this->correo = $idiomaEntrada;
   }
 
-  function get_password() {
+  function get_Password() {
     return $this->password;
   }
 
