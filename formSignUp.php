@@ -8,7 +8,8 @@ include './componentesInterfaz/signUp_Title.php';
     <div class="containerForm">
         <div class="titleForm">Datos básicos.</div>
         <div class="containerInputsForm">
-            <form action="" method="post">
+            <form action="controladorDBUsuario.php" method="post">
+                <input type="hidden" id="accion" value="registroUsuario">
                 <div class="input-field col s6">
                     <i class="material-icons prefix">account_circle</i>
                     <input id="icon_name" type="text" class="validate">
