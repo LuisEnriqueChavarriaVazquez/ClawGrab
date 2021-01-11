@@ -8,7 +8,7 @@ include './componentesInterfaz/editData_Title.php';
 <div class="containerForm">
             <div class="titleForm">Basic data.</div>
             <div class="containerInputsForm">
-                <form action="L_signUp_logica.php" method="post">
+                <form action="L_editData_logica.php" method="post">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">account_circle</i>
                         <input id="icon_name" type="text" class="validate" name="username">
