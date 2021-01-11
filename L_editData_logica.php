@@ -1,4 +1,5 @@
 <?php
+  include('A_headerData.php');
   $showAlert = false;
   $showError = false;
   $exists = false;
@@ -38,7 +39,7 @@
       // la query sql verifica que el usuario con ese nombre no este registrado
       if (($password == $cpassword)) {
       
-        $sql = "UPDATE usuario set Nombre='".$username."',Edad='".$age."',Pais='".$country."',Correo='".$mail."',Idioma='".$idiom."',Contra='".$password."' where Nombre='Ricardo Machorro'";
+        $sql = "UPDATE usuario set Nombre='".$username."',Edad='".$age."',Pais='".$country."',Correo='".$mail."',Idioma='".$idiom."',Contra='".$password."' where Correo='".$_SESSION['login_user']."'";
         $result = mysqli_query($conn, $sql);
         $login_session = $mail;
         $login_session_name = $username;
