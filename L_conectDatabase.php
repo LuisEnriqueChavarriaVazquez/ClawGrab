@@ -18,7 +18,7 @@
     
    
     if($conn) { 
-        //echo "todo bien";
+        echo "todo bien";
     }  
     else { 
         die("Error". mysqli_connect_error());  
