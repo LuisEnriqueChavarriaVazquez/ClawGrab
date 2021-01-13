@@ -23,13 +23,15 @@ create table HacerCodigo(
 
 create table compartirCodigo(
   IDCompartir int not null auto_increment primary key,
-  IDCodigo int not null,
   IDUsuario int not null,
+  Nombre varchar (50),
   Palabra_Clave_1 varchar (50),
   Palabra_Clave_2 varchar (50),
   Palabra_Clave_3 varchar (50),
-  FOREIGN KEY (IDUsuario) REFERENCES Usuario(IDUsuario),
-   FOREIGN KEY (IDCodigo) REFERENCES HacerCodigo(IDCodigo)
+  Archivo_Code LONGBLOB,
+  NombreArchivo varchar (100),
+  FOREIGN KEY (IDUsuario) REFERENCES Usuario(IDUsuario)
+  /*FOREIGN KEY (IDCodigo) REFERENCES HacerCodigo(IDCodigo)*/
 );
 
 /*

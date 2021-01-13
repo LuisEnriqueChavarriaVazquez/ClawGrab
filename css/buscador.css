@@ -1,0 +1,80 @@
+.buscardorPersonalizado {
+    border-radius: 4px !important;
+}
+
+.boxBuscadorMine{
+    display: flex;
+    justify-content: center;
+}
+
+.buscardorPersonalizado>.textbox {
+    outline: 0 !important;
+    height: 42px !important;
+    width: 260px !important;
+    line-height: 42px !important;
+    padding: 0 16px !important;
+    background-color:  rgba(38, 50, 56, 0.8) !important;
+    color: #000 !important;
+    border: none;
+    float: left !important;
+    -webkit-border-radius: 4px 0 0 4px !important;
+    border-radius: 4px 0 0 4px !important;
+    margin: 8px 0 0px 0 !important;
+
+}
+
+.buscardorPersonalizado>.textbox:focus {
+    outline: 0 !important;
+    background-color:  rgb(255, 255, 255) !important;
+    transition: .3s ease-in-out;
+}
+
+.buscardorPersonalizado>.button {
+    outline: 0 !important;
+    background: none !important;
+    background-color: rgba(38, 50, 56, 0.8) !important;
+    float: left !important;
+    height: 42px !important;
+    width: 42px !important;
+    text-align: center !important;
+    line-height: 42px !important;
+    border: 0 !important;
+    color: #FFF !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
+    font-size: 16px !important;
+    text-rendering: auto !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+    -webkit-transition: background-color .4s ease !important;
+    transition: background-color .4s ease !important;
+    -webkit-border-radius: 0 4px 4px 0 !important;
+    border-radius: 0 4px 4px 0 !important;
+    margin: 8px 0 0px 0 !important;
+}
+
+.buscardorPersonalizado>.button:hover {
+    background-color: rgba(0, 78, 122, 0.8) !important;
+}
+
+
+
+
+/*Parte de activar la ayuda*/
+
+.formAyuda {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boxAyuda {
+    height: 35px;
+    padding: 5px 30px 8px 10px;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: #f1f1f1 !important;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: #b9b9b9 !important;
+}

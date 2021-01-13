@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="" id="theme">
     <link rel="stylesheet" href="css/shadows.css">
+    <link rel="stylesheet" href="css/buscador.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="bodyLight">

@@ -9,7 +9,7 @@ include 'L_signUp_logica.php';
 
 <section class="bodyStyleBlack">
     <div class="containerForm">
-        <<<<<<< HEAD <div class="titleForm">Basic data.
+        <div class="titleForm">Basic data.
     </div>
     <div class="containerInputsForm">
         <form action="L_signUp_logica.php" method="post">
