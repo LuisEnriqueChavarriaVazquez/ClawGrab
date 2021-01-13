@@ -2,10 +2,9 @@
    
     $servername = "localhost";  
     $username = "root";  
-    //$password = "12345"; 
-   // $database = "clawgrab";
-   $password = "ramv1357"; 
-   $database = "ClawGrab";
+    $password = "12345"; 
+    $database = "clawgrab"; 
+   
      // Create a connection  
      $conn = mysqli_connect($servername,  
          $username, $password, $database); 
