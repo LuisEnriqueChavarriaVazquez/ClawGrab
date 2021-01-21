@@ -6,7 +6,7 @@ include './componentesInterfaz/A_headerData.php';
 <nav class="colorNavLight nav-extended">
     <div class="nav-wrapper">
         <a href="#" data-target="mobile-demo" class="sidenav-trigger iconNav show-on-large"><img class="iconsSize iconColorLight" src="icons/menu-black-18dp.svg" alt="menu icon"></a>
-        <span class="titleNav flow-text"><?php echo $_HOMETITLE ?></span>
+        <a href="home.php"><span class="titleNav flow-text"><?php echo $_HOMETITLE ?></span></a>
         <a class="btn-floating btn-large halfway-fab waves-effect waves-light botonCodeDesign" id="codificar">
             <i class="material-icons">code</i>
         </a>
@@ -130,7 +130,7 @@ include './componentesInterfaz/A_headerData.php';
 
                     <br><br><br><br>
 
-                    <button class="waves-effect waves-light btn bordered blue-grey darken-4" id="Boton_2" style="border-radius:200px;" ;><i class="material-icons">exposure_plus_1</i></button>
+                    <!--<button class="waves-effect waves-light btn bordered blue-grey darken-4" id="Boton_2" style="border-radius:200px;" ;><i class="material-icons">exposure_plus_1</i></button>
                     <br><br>
 
                     <div class="padreElement_2">
@@ -144,7 +144,7 @@ include './componentesInterfaz/A_headerData.php';
                         </div>
                     </div>
 
-                    <br><br><br><br>
+                    <br><br><br><br>-->
 
                     <button class="waves-effect waves-light btn bordered blue-grey darken-4" id="Boton_2" style="border-radius:200px;" ;><i class="material-icons">exposure_plus_1</i></button>
                     <br><br>
@@ -217,7 +217,6 @@ include './componentesInterfaz/A_headerData.php';
                                 <input type="text" class="browser-default valor" placeholder="condicional">
                                 <br><br>
                                 else &nbsp;
-                                <input type="text" class="browser-default valor" placeholder="condicional">
                             </div>
                         </div>
                     </div>
@@ -233,7 +232,7 @@ include './componentesInterfaz/A_headerData.php';
                                 Repetir &nbsp;
                                 <input type="text" class="browser-default valor" style="width: 150px;" placeholder="n veces">
                                 <br><br><br><br>
-                                <i class="material-icons">repeat</i>
+                                <i class="material-icons">repeat + condición</i>
                             </div>
                         </div>
                     </div>
@@ -253,10 +252,70 @@ include './componentesInterfaz/A_headerData.php';
                                 <input type="text" class="browser-default valor" style="position:relative; width:180px; top: -17px; right: -30px;" placeholder="n veces">
                                 <br><br>
                                 else &nbsp;
-                                <input type="text" class="browser-default valor" style="position:relative; width:180px; top: -17px; right: -30px;" placeholder="n veces">
                             </div>
                         </div>
                     </div>
+
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <button class="waves-effect waves-light btn bordered blue-grey darken-4" id="Boton_2" style="border-radius:200px;" ;><i class="material-icons">exposure_plus_1</i></button>
+                    <br><br>
+                    
+                    <div class="padreElement_2">
+                        <div class="tagGrap winston segundoVar" style="position: absolute !important;">
+                            <div class="piezaUno pink darken-4 z-depth-3">
+                                Input int &nbsp;
+                                <input type="text" class="browser-default valor" placeholder="variable">
+                                &nbsp; a msg &nbsp;
+                                <input type="text" class="browser-default valor" placeholder="texto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br><br><br><br>
+                    <button class="waves-effect waves-light btn bordered blue-grey darken-4" id="Boton_2" style="border-radius:200px;" ;><i class="material-icons">exposure_plus_1</i></button>
+                    <br><br>
+                    
+                    <div class="padreElement_2">
+                        <div class="tagGrap winston segundoVar" style="position: absolute !important;">
+                            <div class="piezaUno pink darken-4 z-depth-3">
+                                Input text &nbsp;
+                                <input type="text" class="browser-default valor" placeholder="variable">
+                                &nbsp; a msg &nbsp;
+                                <input type="text" class="browser-default valor" placeholder="texto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br><br><br><br>
+
+                    <button class="waves-effect waves-light btn bordered blue-grey darken-4" id="Boton_3" style="border-radius:200px;" ;><i class="material-icons">exposure_plus_1</i></button>
+                    <br><br>
+
+                    <div class="padreElement_3">
+                        <div class="tagGrap winston terceroVar" style="position: absolute !important;">
+                            <div class="piezaDos blue-grey darken-3  z-depth-3">
+                                Comentario &nbsp;
+                                <input type="text" class="browser-default valor" placeholder="comentario">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br><br><br><br>
+
+                    <button class="waves-effect waves-light btn bordered blue-grey darken-4" id="Boton_2" style="border-radius:200px;" ;><i class="material-icons">exposure_plus_1</i></button>
+                    <br><br>
+
+                    <div class="padreElement_2">
+                        <div class="tagGrap winston segundoVar" style="position: absolute !important;">
+                            <div class="randomPieza indigo darken-4 z-depth-3">
+                                calendar var &nbsp;
+                                <input type="text" class="browser-default valor" placeholder="variable">
+                                &nbsp; data &nbsp;
+                                <input type="text" class="browser-default valor" placeholder=".example(uno,dos,tres)">
+                            </div>
+                        </div>
+                    </div>
+
 
                     
 

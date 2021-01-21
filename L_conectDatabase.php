@@ -1,14 +1,14 @@
 <?php 
    
-    /*$servername = "localhost";  
+    $servername = "localhost";  
     $username = "root";  
     $password = "12345"; 
-    $database = "clawgrab"; */
+    $database = "clawgrab"; 
 
-    $servername = "us-cdbr-east-03.cleardb.com";  
+    /*$servername = "us-cdbr-east-03.cleardb.com";  
     $username = "b3cf231598121b";  
     $password = "bda8defc"; 
-    $database = "heroku_e99f66b5b833c37"; 
+    $database = "heroku_e99f66b5b833c37"; */
 
     //mysql:b3cf231598121b:bda8defc@us-cdbr-east-03.cleardb.com/heroku_e99f66b5b833c37?reconnect=true
    

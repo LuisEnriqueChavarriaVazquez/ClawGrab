@@ -38,18 +38,26 @@ $(document).ready(function () {
     + "num2 = 6.3" + "\n" 
     + "sum = num1 + num2"+ "\n" 
     + "print(sum)"; //Suma de valores
-    var functionTres = "num = int(input('Ingresa un número: '))" + "\n" 
-    + "if (num % 2) == 0:" + "\n" 
-    + "     print('{0} es par'.format(num))" + "\n" 
+    var functionTres = "# par o impar" + "\n" 
+    + "numero = int(input('Ingrese un numero: '))" + "\n" 
+    + "if (numero % 2) == 0:" + "\n" 
+    + "     print('Es par')" + "\n" 
     + "else:" + "\n"
-    + "     print('{0} es impar'.format(num))"; // Nos dice si es par o no
+    + "     print('Es impar')"; // Nos dice si es par o no
 
-    var functionCuatro = "import random"+ "\n" +"print(random.randint(0,9))"
+    var functionCuatro = "import random"+ "\n" + "numero = random.randint(0,9)" +"\n" +"print(numero)"
+
+    var functionCinco = "import calendar" + "\n" 
+    + "yy = 2000" + "\n"
+    + "mm = 10" + "\n"
+    + "getCalendar = calendar.month(yy, mm)" + "\n"
+    + "print(getCalendar)" + "\n"
+    + "# Fin del ejemplo"
 
     var codeConsole = document.getElementById('myInput');
     //var botonEjecutar = document.getElementById('codificar');   
     $('#codificar').click(function(){
-        codeConsole.textContent = functionZero;
+        codeConsole.textContent = functionCinco;
     });
 
       
