@@ -54,10 +54,13 @@ $(document).ready(function () {
     + "print(getCalendar)" + "\n"
     + "# Fin del ejemplo"
 
+
+    var final = "hurra = 'Viva ESCOM'" + "\n" + "print(hurra)";
+
     var codeConsole = document.getElementById('myInput');
     //var botonEjecutar = document.getElementById('codificar');   
     $('#codificar').click(function(){
-        codeConsole.textContent = functionCinco;
+        codeConsole.textContent = final;
     });
 
       
