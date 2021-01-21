@@ -10,5 +10,7 @@
     <link rel="stylesheet" href="css/shadows.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
 </head>
 <body class="bodyLight">
