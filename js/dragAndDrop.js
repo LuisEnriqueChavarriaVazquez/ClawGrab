@@ -8,7 +8,7 @@ $(document).ready(function () {
         drop: function (event, ui) {
             $(this).css('border', 'none');
             //longitudCajas = document.getElementById(contadorIdUno).children.length;
-            alert(/*longitudCajas + */" el contador va en "+ contadorIdUno);
+            //alert(/*longitudCajas + */" el contador va en "+ contadorIdUno);
         },
         over: function (event, ui) {
             $(this).css('border', 'dotted');
